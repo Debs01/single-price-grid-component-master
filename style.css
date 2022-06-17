@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url(images/background.png); 
+   image-resolution: 100%;
+   width: 100%;
+   max-height: 100%;
+}
+.container {
+    width: 680px;
+    height: 400px;
+    position: relative;
+    background: #fff;
+    margin-top: 100px;
+    margin-left: 350px;
+    display:grid;
+    padding-top: 5px;
+    border-radius: 15px;
+    box-shadow: -3px -3px 2px rgba(184, 154, 228, 0.3),
+                 5px 5px 5px  rgba(206, 183, 239, 0.2),
+                15px 15px 15px rgba(190, 176, 209, 0.2);
+}
+.Row-1 {
+    width: 600px;
+    height: 200px;
+}
+.H1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 16px;
+    font-family: 'karla';
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.H2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 13px;
+    font-family: 'karla';
+    font-weight: 400;
+    margin-left: 40px;
+}
+.H3 {
+    color: hsl(204, 19%, 80%);
+    font-size: 13px;
+    font-family: 'karla';
+    font-weight: 400;
+    margin-left: 40px;
+}
+.Row-2 {
+    width: 680px;
+    height: 200px;
+    display: flex;
+}
+.card-1 {
+    width: 340px;
+    height: 200px;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    background-color: hsl(179, 62%, 43%);
+    align-content: center;
+}
+.H4 {
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+    font-family: 'karla';
+    font-weight: 400;
+    margin-left: 40px;
+}
+.Price {
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: 'karla';
+    font-weight: 400;
+    margin-left: 40px;
+}
+span {
+    font-size: 13px;
+    font-family: 'karla';
+    color: hsl(202, 36%, 70%);
+
+}
+.Text {
+    color: hsl(204, 43%, 88%);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'karla';
+    margin-left: 40px;
+}
+.button-1 {
+    width: 200px;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 30px;
+    font-family: 'karla';
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+    box-shadow: 5px 5px 5px rgba(58, 56, 61, 0.2),
+                10px 10px 10px rgba(58, 56, 61, 0.2);
+}
+.card-2 {
+    width: 340px;
+    height: 200px;
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    background-color: hsl(179, 62%, 53%);
+}
+.Text2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+    font-family: 'karla';
+    font-weight: 700;
+    margin-left: 40px;
+}
+.Text3 {
+    color: hsl(204, 43%, 86%);
+    font-size: 14px;
+    font-family: 'karla';
+    font-weight: 400;
+    margin-left: 40px;
+    line-height: 15px;
+}
+.attribution {
+     color:hsl(218, 22%, 67%);
+     font-size: 15px;
+     font-family: 'karla';
+     font-weight: 400;
+     margin-top: 40px;
+}
